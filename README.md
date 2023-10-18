@@ -4,6 +4,7 @@ Functionality
 -------
 
 The first notebook creates a ChromaDB vectorstore for a text file.
+
 The second notebook queries the vectorstore and embeds the returned documents into an LLM prompt.
 
 -------
