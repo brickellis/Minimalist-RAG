@@ -12,8 +12,15 @@ How it Works
 -------
 Both notebooks use LangChain for all of their functionality.
 The steps are as follows:
+
+
+1st:
 1. Convert the text into a list of LangChain Documents
 2. Add those Documents to a ChromaDB vectorstore (and their embeddings) and save the store in the local directory.
+
+
+2nd:
+
 
 1. Open the saved vectorstore.
 2. Query the documents by searching for the documents with embeddings most similar to the query's, effectively comparing the documents by their semantic meanings.
@@ -29,7 +36,9 @@ Change the file_name variable in both notebooks to your file's name, with .txt o
 In the second notebook, replace the question in the third cell with your own.
 
 Example query and output:
+
 question = 'What was the name of Benjamin Franklin\'s newspaper?'
+
 The name of Benjamin Franklin's newspaper was the Pennsylvania Gazette.
 
 -------
